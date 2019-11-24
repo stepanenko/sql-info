@@ -15,7 +15,6 @@ import { CoursesService } from './courses.service';
     </button>
     <hr>
     <input #email (keyup.enter)="enter(email.value)" />
-    <hr>
     <input [(ngModel)]="mail" (keyup.enter)="twoway()" />
   `
 })
