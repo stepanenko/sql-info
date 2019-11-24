@@ -11,10 +11,10 @@ export interface FavChangedInfo {
 })
 export class FavoriteComponent {
   @Input() isFavorite: boolean;
-  @Output() changed = new EventEmitter();
+  @Output('changed') click = new EventEmitter();
 
   onStarClick() {
-    this.changed.emit({
+    this.click.emit({
       newValue: this.isFavorite
     });
   }
