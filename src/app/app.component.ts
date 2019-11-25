@@ -12,6 +12,8 @@ export class AppComponent {
     isFavorite: true
   };
 
+  viewMode = 'map';
+
   onFavoriteChange(newEvent: FavChangedInfo) {
     this.post.isFavorite = !this.post.isFavorite;
     console.log('Favorite changed to: ', newEvent.newValue);
