@@ -1,7 +1,11 @@
 
 <span 
   (click)="onStarClick()"
-  [class]="isFavorite ? 'glyphicon glyphicon-star' : 'glyphicon glyphicon-star-empty'"
+  class="glyphicon"
+  [ngClass]="{
+    'glyphicon-star': isFavorite,
+    'glyphicon-star-empty': !isFavorite
+  }"
   style="font-size: 3em">
 </span>
 

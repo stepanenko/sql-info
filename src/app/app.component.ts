@@ -18,4 +18,5 @@ export class AppComponent {
     this.post.isFavorite = !this.post.isFavorite;
     console.log('Favorite changed to: ', newEvent.newValue);
   }
+
 }

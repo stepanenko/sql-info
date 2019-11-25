@@ -9,9 +9,10 @@ export class CoursesComponent {
   title = 'The List of Courses';
   courses;
   isActive = true;
+  canSave = false;
   mail;
 
-  constructor(service: CoursesService) {
+  constructor(private service: CoursesService) {
     this.courses = service.getCourses();
   }
 
@@ -25,5 +26,13 @@ export class CoursesComponent {
 
   twoway() {
     console.log(this.mail);
+  }
+
+  delete(course) {
+    this.service.delete(course);
+  }
+
+  add() {
+    this.service.add();
   }
 }

@@ -1,13 +1,20 @@
 
 <h2>{{ title }}</h2>
+<button (click)="add()">Add</button>
 <ul>
   <li *ngFor="let course of courses; index as i">
     {{ i }} - {{ course }}
-    <button (onDelete)>Delete</button>
+    <button (click)="delete(course)">Delete</button>
   </li>
 </ul>
-<button (click)="onClick()" class="btn btn-primary" [class.active]="isActive">
-  Save
+<button 
+  (click)="onClick()" 
+  class="btn btn-primary" 
+  [class.active]="isActive"
+  [ngStyle]="{
+    'backgroundColor': canSave ? 'blue' : 'grey',
+    'color': canSave ? 'white' : 'black'
+  }">Save
 </button>
 <hr>
 <input #email (keyup.enter)="enter(email.value)" />
