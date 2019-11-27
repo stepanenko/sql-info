@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses.component';
 import { CoursesService } from './courses.service';
 import { FavoriteComponent } from './favorite.component';
+import { InputFormatDirective } from './input-format.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
-    FavoriteComponent
+    FavoriteComponent,
+    InputFormatDirective
   ],
   imports: [
     BrowserModule,

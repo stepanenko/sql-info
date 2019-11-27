@@ -17,5 +17,6 @@
   }">Save
 </button>
 <hr>
-<input #email (keyup.enter)="enter(email.value)" />
+<label for="email">Email</label>
+<input #email (keyup.enter)="enter(email.value)" [appInputFormat]="'lowercase'"/>
 <input [(ngModel)]="mail" (keyup.enter)="twoway()" />
