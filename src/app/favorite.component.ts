@@ -18,5 +18,9 @@ export class FavoriteComponent {
       newValue: this.isFavorite
     });
   }
+  
+  function test() {
+  }
+    
 
 }
