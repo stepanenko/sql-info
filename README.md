@@ -27,6 +27,8 @@ Progress: **0/136**
 
 Firebase, Authentication, Ionic, Integration with ASP.NET Core, Performance Optimization, Redux and Unit Testing
 
+<hr>
+
 ## [Udemy: The Complete Angular Course](https://www.udemy.com/course/the-complete-angular-master-class/)
 
 Last updated: **04.2018**
