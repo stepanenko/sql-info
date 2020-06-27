@@ -23,6 +23,8 @@ Duration: **09:44:12**
 
 Progress: **0/136**
 
+Downloaded: **Acer Laptop**
+
 ### Description:
 
 Firebase, Authentication, Ionic, Integration with ASP.NET Core, Performance Optimization, Redux and Unit Testing
@@ -37,7 +39,8 @@ Duration: **29:33:30**
 
 Progress: **0/376**
 
+Downloaded: **Acer Laptop**
+
 ### Description:
 
-The most comprehensive Angular 4 (Angular 2+) course.
 Build a real e-commerce app with Angular, Firebase and Bootstrap 4
