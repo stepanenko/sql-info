@@ -5,7 +5,7 @@ Updated: **14.11.2017**
 
 Duration: **9:53:00**
 
-Progress: **11/147**
+Progress: **see `angular-crash-for-busy` folder**
 
 ### Description:
 
@@ -23,7 +23,7 @@ Duration: **09:44:12**
 
 Progress: **0/136**
 
-Downloaded: **Acer Laptop**
+Downloaded: **Acer, Mac, HDD WD**
 
 ### Description:
 
@@ -37,9 +37,9 @@ Last updated: **04.2018**
 
 Duration: **29:33:30**
 
-Progress: **0/376**
+Progress: **see `angular-complete-project` folder**
 
-Downloaded: **Acer Laptop**
+Downloaded: **Acer, Mac, HDD WD**
 
 ### Description:
 
