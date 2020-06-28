@@ -9,7 +9,7 @@ Progress: **11/147**
 
 ### Description:
 
-Have limited time to learn Angular 4 (Angular 2+)? Take this course and learn Angular in 10 hours!
+Have limited time to learn Angular 4? Take this course and learn Angular in 10 hours!
 
 [Udemy Link](https://www.udemy.com/course/angular-crash-course/)
 
