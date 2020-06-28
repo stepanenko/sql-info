@@ -5,7 +5,7 @@ Updated: **14.11.2017**
 
 Duration: **9:53:00**
 
-Progress: **see `angular-crash-for-busy` folder**
+Progress: **see 'angular-crash-for-busy' folder**
 
 ### Description:
 
@@ -37,7 +37,7 @@ Last updated: **04.2018**
 
 Duration: **29:33:30**
 
-Progress: **see `angular-complete-project` folder**
+Progress: **see 'angular-complete-project' folder**
 
 Downloaded: **Acer, Mac, HDD WD**
 
