@@ -9,6 +9,8 @@ Progress: **275-276/376**
 
 Downloaded: **Acer, Mac, HDD WD**
 
+Tech stack: **Angular 10**
+
 ### Description:
 
 Build a real e-commerce app with Angular, Firebase and Bootstrap 4
