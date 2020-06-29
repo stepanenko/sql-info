@@ -5,12 +5,22 @@ Last updated: **04.2018**
 
 Duration: **29:33:30**
 
-Progress: **275-276/376**
+Progress: **275-285/376**
 
 Downloaded: **Acer, Mac, HDD WD**
 
 Tech stack: **Angular 10**
 
-### Description:
+### Deploy:
 
-Build a real e-commerce app with Angular, Firebase and Bootstrap 4
+- project index.html should be in dist folder
+
+- angular.json -> `"outputPath": "dist/angular-complete-project"`
+
+- firebase.json -> `"public": "dist/angular-complete-project"`
+
+### Or:
+
+- angular.json -> `"outputPath": "dist"`
+
+- firebase.json -> `"public": "dist"`
