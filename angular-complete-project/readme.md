@@ -5,7 +5,7 @@ Last updated: **04.2018**
 
 Duration: **29:33:30**
 
-Progress: **275-285/376**
+Progress: **275-286/376**
 
 Downloaded: **Acer, Mac, HDD WD**
 
@@ -19,7 +19,7 @@ Tech stack: **Angular 10**
 
 - firebase.json -> `"public": "dist/angular-complete-project"`
 
-### Or:
+#### Or:
 
 - angular.json -> `"outputPath": "dist"`
 

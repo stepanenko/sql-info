@@ -4,6 +4,10 @@ import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+
+import { environment } from './../environments/environment';
 import { AppComponent } from './app.component';
 import { BsNavbarComponent } from './navbar/bs-navbar.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
@@ -30,6 +34,8 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
   ],
   imports: [
     BrowserModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
     AppRoutingModule,
     NgbModule
   ],
