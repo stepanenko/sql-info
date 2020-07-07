@@ -23,7 +23,7 @@ Duration: **09:44:12**
 
 Progress: **0/136**
 
-Downloaded: **Acer, Mac, HDD WD**
+Downloaded: **Acer, Mac, HDD**
 
 ### Description:
 
@@ -37,9 +37,9 @@ Last updated: **04.2018**
 
 Duration: **29:33:30**
 
-Progress: **275-291/376**
+Progress: **12-21, 275-291/376**
 
-Downloaded: **Acer, Mac, HDD WD**
+Downloaded: **Acer, Mac, HDD**
 
 ### Description:
 
