@@ -37,7 +37,7 @@ Last updated: **04.2018**
 
 Duration: **29:33:30**
 
-Progress: **12-21, 275-291/376**
+Progress: **12-26, 275-291/376**
 
 Downloaded: **Acer, Mac, HDD**
 
