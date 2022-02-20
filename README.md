@@ -34,3 +34,5 @@ CREATE TABLE |	Creates a new table in the database
 CREATE PROCEDURE |	Creates a stored procedure
 CREATE UNIQUE INDEX	| Creates a unique index on a table (no duplicate values)
 CREATE VIEW	| Creates a view based on the result set of a SELECT statement
+
+Continue at https://www.w3schools.com/sql/sql_ref_keywords.asp
