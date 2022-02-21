@@ -34,5 +34,17 @@ CREATE TABLE |	Creates a new table in the database
 CREATE PROCEDURE |	Creates a stored procedure
 CREATE UNIQUE INDEX	| Creates a unique index on a table (no duplicate values)
 CREATE VIEW	| Creates a view based on the result set of a SELECT statement
-
-Continue at https://www.w3schools.com/sql/sql_ref_keywords.asp
+DATABASE	| Creates or deletes an SQL database
+DEFAULT	| A constraint that provides a default value for a column
+DELETE	| Deletes rows from a table
+DESC	| Sorts the result set in descending order
+DISTINCT	| Selects only distinct (different) values
+DROP	| Deletes a column, constraint, database, index, table, or view
+DROP COLUMN	| Deletes a column in a table
+DROP CONSTRAINT	| Deletes a UNIQUE, PRIMARY KEY, FOREIGN KEY, or CHECK constraint
+DROP DATABASE	| Deletes an existing SQL database
+DROP DEFAULT	| Deletes a DEFAULT constraint
+DROP INDEX	| Deletes an index in a table
+DROP TABLE	| Deletes an existing table in the database
+DROP VIEW	| Deletes a view
+Continue at... | https://www.w3schools.com/sql/sql_ref_keywords.asp
