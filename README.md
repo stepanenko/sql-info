@@ -47,4 +47,18 @@ DROP DEFAULT	| Deletes a DEFAULT constraint
 DROP INDEX	| Deletes an index in a table
 DROP TABLE	| Deletes an existing table in the database
 DROP VIEW	| Deletes a view
+EXEC | Executes a stored procedure
+EXISTS | Tests for the existence of any record in a subquery
+FOREIGN KEY	| A constraint that is a key used to link two tables together
+FROM | Specifies which table to select or delete data from
+FULL OUTER JOIN	| Returns all rows when there is a match in either left table or right table
+GROUP BY | Groups the result set (used with aggregate functions: COUNT, MAX, MIN, SUM, AVG)
+HAVING | Used instead of WHERE with aggregate functions
+IN | Allows you to specify multiple values in a WHERE clause
+INDEX	| Creates or deletes an index in a table
+INNER JOIN | Returns rows that have matching values in both tables
+INSERT INTO	| Inserts new rows in a table
+INSERT INTO SELECT | Copies data from one table into another table
+IS NULL | Tests for empty values
+IS NOT NULL | Tests for non-empty values
 Continue at... | https://www.w3schools.com/sql/sql_ref_keywords.asp
