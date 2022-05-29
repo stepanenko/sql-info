@@ -61,4 +61,25 @@ INSERT INTO	| Inserts new rows in a table
 INSERT INTO SELECT | Copies data from one table into another table
 IS NULL | Tests for empty values
 IS NOT NULL | Tests for non-empty values
+JOIN | Joins tables
+LEFT JOIN	| Returns all rows from the left table, and the matching rows from the right table
+LIKE | Searches for a specified pattern in a column
+LIMIT	| Specifies the number of records to return in the result set
+NOT	| Only includes rows where a condition is not true
+NOT NULL | A constraint that enforces a column to not accept NULL values
+OR | Includes rows where either condition is true
+ORDER BY | Sorts the result set in ascending or descending order
+OUTER JOIN | Returns all rows when there is a match in either left table or right table
+PRIMARY KEY	| A constraint that uniquely identifies each record in a database table
+PROCEDURE	| A stored procedure
+RIGHT JOIN | Returns all rows from the right table, and the matching rows from the left table
+ROWNUM | Specifies the number of records to return in the result set
+SELECT | Selects data from a database
+SELECT DISTINCT	| Selects only distinct (different) values
+SELECT INTO	| Copies data from one table into a new table
+SELECT TOP | Specifies the number of records to return in the result set
+SET	| Specifies which columns and values that should be updated in a table
+TABLE	| Creates a table, or adds, deletes, or modifies columns in a table, or deletes a table or data inside a table
+TOP	| Specifies the number of records to return in the result set
+TRUNCATE TABLE | Deletes the data inside a table, but not the table itself
 Continue at... | https://www.w3schools.com/sql/sql_ref_keywords.asp
