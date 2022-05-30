@@ -82,4 +82,12 @@ SET	| Specifies which columns and values that should be updated in a table
 TABLE	| Creates a table, or adds, deletes, or modifies columns in a table, or deletes a table or data inside a table
 TOP	| Specifies the number of records to return in the result set
 TRUNCATE TABLE | Deletes the data inside a table, but not the table itself
-Continue at... | https://www.w3schools.com/sql/sql_ref_keywords.asp
+UNION	| Combines the result set of two or more SELECT statements (only distinct values)
+UNION ALL	| Combines the result set of two or more SELECT statements (allows duplicate values)
+UNIQUE | A constraint that ensures that all values in a column are unique
+UPDATE | Updates existing rows in a table
+VALUES | Specifies the values of an INSERT INTO statement
+VIEW | Creates, updates, or deletes a view
+WHERE | Filters a result set to include only records that fulfill a specified condition
+
+Continue at... | https://www.w3schools.com/sql/sql_ref_mysql.asp
