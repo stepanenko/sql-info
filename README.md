@@ -1,13 +1,17 @@
 
 # SQL
 
-First appeared: 1974  
-Paradigm: Declarative  
-Family: Query language  
-Typing discipline: Static, strong  
-Designed by: Donald D. Chamberlin; Raymond F. Boyce 
+Q | A
+--- | ---
+First appeared | 1974  
+Paradigm | Declarative  
+Family | Query language  
+Typing discipline | Static, strong  
+Designed by | Donald D. Chamberlin, Raymond F. Boyce 
 
-### Keywords:
+### SQL Keywords Reference:
+The following table contains reserved words in SQL:
+
 Keyword	| Description
 --------|---------------
 ADD	| Adds a column in an existing table
@@ -90,4 +94,4 @@ VALUES | Specifies the values of an INSERT INTO statement
 VIEW | Creates, updates, or deletes a view
 WHERE | Filters a result set to include only records that fulfill a specified condition
 
-Continue at... | https://www.w3schools.com/sql/sql_ref_mysql.asp
+More at https://www.w3schools.com/sql/sql_ref_mysql.asp
