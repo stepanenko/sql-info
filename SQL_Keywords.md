@@ -84,4 +84,4 @@ VALUES | Specifies the values of an INSERT INTO statement
 VIEW | Creates, updates, or deletes a view
 WHERE | Filters a result set to include only records that fulfill a specified condition
 
-More at https://www.w3schools.com/sql/sql_ref_mysql.asp
+More at https://www.w3schools.com/sql/sql_ref_keywords.asp
