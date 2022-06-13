@@ -138,9 +138,10 @@ WEEKOFYEAR | Returns the week number for a given date
 YEAR | Returns the year part for a given date
 YEARWEEK | Returns the year and week number for a given date
 
-## Advanced Functions
+### MySQL Advanced Functions:
 
 Function | Description
+--- | ---
 BIN	| Returns a binary representation of a number
 BINARY | Converts a value to a binary string
 CASE | Goes through conditions and return a value when the first condition is met
