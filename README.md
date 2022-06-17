@@ -10,7 +10,8 @@ Typing discipline | Static, strong
 Designed by | Donald D. Chamberlin, Raymond F. Boyce 
 
 - ### [SQL Keywords Reference](https://github.com/stepanenko/sql-info/blob/master/SQL_Keywords.md)
-- ### [MySQL Functions](https://github.com/stepanenko/sql-info/blob/master/MySQL_Functions.md)
+- ### [SQL Functions](https://github.com/stepanenko/sql-info/blob/master/MySQL_Functions.md)
+- ### [SQL Quick Reference](https://github.com/stepanenko/sql-info/blob/master/SQL_Quick_Reference.md)
 
 ---
 
