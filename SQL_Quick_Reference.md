@@ -4,8 +4,8 @@
 ```sql
 SELECT column_name(s)
 FROM table_name
-WHERE condition
-AND/OR condition
+WHERE condition_1
+AND / OR condition_2
 ```
 - ALTER TABLE
 ```sql
