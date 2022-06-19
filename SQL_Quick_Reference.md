@@ -30,5 +30,25 @@ FROM table_name
 WHERE column_name
 BETWEEN value1 AND value2
 ```
+- CREATE DATABASE
+```sql
+CREATE DATABASE database_name
+```
+- CREATE TABLE
+```sql
+CREATE TABLE table_name (
+column_name1 data_type,
+column_name2 data_type,
+column_name3 data_type,
+... )
+```
+- CREATE INDEX
+```sql
+CREATE INDEX index_name
+ON table_name (column_name)
+# or
+CREATE UNIQUE INDEX index_name
+ON table_name (column_name)
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
