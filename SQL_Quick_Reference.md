@@ -50,5 +50,12 @@ ON table_name (column_name)
 CREATE UNIQUE INDEX index_name
 ON table_name (column_name)
 ```
+- CREATE VIEW
+```sql
+CREATE VIEW view_name AS
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
