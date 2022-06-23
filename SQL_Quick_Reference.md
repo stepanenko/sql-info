@@ -57,5 +57,14 @@ SELECT column_name(s)
 FROM table_name
 WHERE condition
 ```
+- DELETE
+```sql
+DELETE FROM table_name
+WHERE some_column=some_value
+# or
+DELETE FROM table_name # Note: Deletes the entire table!
+# or
+DELETE * FROM table_name # Note: Deletes the entire table!
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
