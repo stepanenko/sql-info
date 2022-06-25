@@ -66,5 +66,14 @@ DELETE FROM table_name # Note: Deletes the entire table!
 # or
 DELETE * FROM table_name # Note: Deletes the entire table!
 ```
+- DROP DATABASE
+```sql
+DROP DATABASE database_name
+```
+- DROP INDEX
+```sql
+ALTER TABLE table_name
+DROP INDEX index_name
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
