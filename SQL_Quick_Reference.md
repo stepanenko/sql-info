@@ -75,5 +75,20 @@ DROP DATABASE database_name
 ALTER TABLE table_name
 DROP INDEX index_name
 ```
+- DROP TABLE
+```sql
+DROP TABLE table_name
+```
+- EXISTS
+```sql
+IF EXISTS (SELECT * FROM table_name WHERE id = ?)
+BEGIN
+-- do what needs to be done if exists
+END
+ELSE
+BEGIN
+-- do what needs to be done if not
+END
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
