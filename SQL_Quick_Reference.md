@@ -90,5 +90,19 @@ BEGIN
 -- do what needs to be done if not
 END
 ```
-
+- GROUP BY
+```sql
+SELECT column_name, aggregate_function(column_name)
+FROM table_name
+WHERE column_name operator value
+GROUP BY column_name
+```
+- HAVING
+```sql
+SELECT column_name, aggregate_function(column_name)
+FROM table_name
+WHERE column_name operator value
+GROUP BY column_name
+HAVING aggregate_function(column_name) operator value
+```
 More at: https://www.w3schools.com/sql/sql_quickref.asp
