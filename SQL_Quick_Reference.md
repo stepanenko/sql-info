@@ -105,4 +105,11 @@ WHERE column_name operator value
 GROUP BY column_name
 HAVING aggregate_function(column_name) operator value
 ```
+- IN
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE column_name
+IN (value1, value2, ..)
+```
 More at: https://www.w3schools.com/sql/sql_quickref.asp
