@@ -112,4 +112,13 @@ FROM table_name
 WHERE column_name
 IN (value1, value2, ..)
 ```
+- INSERT INTO
+```sql
+INSERT INTO table_name
+VALUES (value1, value2, value3,....)
+# or
+INSERT INTO table_name
+(column1, column2, column3,...)
+VALUES (value1, value2, value3,....)
+```
 More at: https://www.w3schools.com/sql/sql_quickref.asp
