@@ -121,4 +121,11 @@ INSERT INTO table_name
 (column1, column2, column3,...)
 VALUES (value1, value2, value3,....)
 ```
+- INNER JOIN
+```sql
+SELECT column_name(s)
+FROM table_1
+INNER JOIN table_2
+ON table_1.column_name=table_2.column_name
+```
 More at: https://www.w3schools.com/sql/sql_quickref.asp
