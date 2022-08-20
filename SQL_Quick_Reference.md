@@ -142,5 +142,12 @@ FROM table_1
 RIGHT JOIN table_2
 ON table_1.column_name=table_2.column_name
 ```
+- FULL JOIN
+```sql
+SELECT column_name(s)
+FROM table_1
+FULL JOIN table_2
+ON table_1.column_name=table_2.column_name
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
