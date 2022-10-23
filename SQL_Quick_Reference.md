@@ -149,5 +149,11 @@ FROM table_1
 FULL JOIN table_2
 ON table_1.column_name=table_2.column_name
 ```
+- LIKE
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE column_name LIKE pattern
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
