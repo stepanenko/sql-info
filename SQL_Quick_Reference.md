@@ -155,5 +155,11 @@ SELECT column_name(s)
 FROM table_name
 WHERE column_name LIKE pattern
 ```
+- ORDER BY
+```sql
+SELECT column_name(s)
+FROM table_name
+ORDER BY column_name [ASC|DESC]
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
