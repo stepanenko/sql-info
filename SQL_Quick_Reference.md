@@ -161,5 +161,14 @@ SELECT column_name(s)
 FROM table_name
 ORDER BY column_name [ASC|DESC]
 ```
-
+- SELECT
+```sql
+SELECT column_name(s)
+FROM table_name
+```
+- SELECT *
+```sql
+SELECT *
+FROM table_name
+```
 More at: https://www.w3schools.com/sql/sql_quickref.asp
