@@ -171,4 +171,10 @@ FROM table_name
 SELECT *
 FROM table_name
 ```
+- SELECT DISTINCT
+```sql
+SELECT DISTINCT column_name(s)
+FROM table_name
+```
+
 More at: https://www.w3schools.com/sql/sql_quickref.asp
