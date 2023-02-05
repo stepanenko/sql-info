@@ -176,5 +176,14 @@ FROM table_name
 SELECT DISTINCT column_name(s)
 FROM table_name
 ```
-
+- SELECT INTO
+```sql
+SELECT *
+INTO new_table_name [IN externaldatabase]
+FROM old_table_name
+# or
+SELECT column_name(s)
+INTO new_table_name [IN externaldatabase]
+FROM old_table_name
+```
 More at: https://www.w3schools.com/sql/sql_quickref.asp
