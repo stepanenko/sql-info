@@ -186,4 +186,10 @@ SELECT column_name(s)
 INTO new_table_name [IN externaldatabase]
 FROM old_table_name
 ```
+- SELECT TOP
+```sql
+SELECT TOP number|percent column_name(s)
+FROM table_name
+```
+
 More at: https://www.w3schools.com/sql/sql_quickref.asp
