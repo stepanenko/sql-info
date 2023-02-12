@@ -191,5 +191,9 @@ FROM old_table_name
 SELECT TOP number|percent column_name(s)
 FROM table_name
 ```
+- TRUNCATE TABLE
+```sql
+TRUNCATE TABLE table_name
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
