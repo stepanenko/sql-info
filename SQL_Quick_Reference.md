@@ -195,5 +195,11 @@ FROM table_name
 ```sql
 TRUNCATE TABLE table_name
 ```
+- UNION
+```sql
+SELECT column_name(s) FROM table_name1
+UNION
+SELECT column_name(s) FROM table_name2
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
