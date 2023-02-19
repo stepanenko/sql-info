@@ -201,5 +201,11 @@ SELECT column_name(s) FROM table_name1
 UNION
 SELECT column_name(s) FROM table_name2
 ```
+- UNION ALL
+```sql
+SELECT column_name(s) FROM table_name1
+UNION ALL
+SELECT column_name(s) FROM table_name2
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
