@@ -213,5 +213,11 @@ UPDATE table_name
 SET column1=value, column2=value,...
 WHERE some_column=some_value
 ```
+- WHERE
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE column_name <operator> value
+```
 
 More at: https://www.w3schools.com/sql/sql_quickref.asp
