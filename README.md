@@ -13,6 +13,20 @@ Designed by | Donald D. Chamberlin, Raymond F. Boyce
 - ### [SQL Functions](https://github.com/stepanenko/sql-info/blob/master/MySQL_Functions.md)
 - ### [SQL Quick Reference](https://github.com/stepanenko/sql-info/blob/master/SQL_Quick_Reference.md)
 
+### Example:
+
+Database creation:
+```sql
+CREATE DATABASE mydatabase;
+```
+Table creation:
+```sql
+CREATE TABLE users (
+  id INT PRIMARY KEY,
+  username VARCHAR(50),
+  email VARCHAR(100)
+);
+```
 ---
 
 More at https://www.w3schools.com/sql/sql_ref_mysql.asp
