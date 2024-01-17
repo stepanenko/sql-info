@@ -27,6 +27,11 @@ CREATE TABLE users (
   email VARCHAR(100)
 );
 ```
+Data Insertion:
+```sql
+INSERT INTO users (id, username, email)
+VALUES (1, 'john_doe', 'john@example.com');
+```
 ---
 
 More at https://www.w3schools.com/sql/sql_ref_mysql.asp
