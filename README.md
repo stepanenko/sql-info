@@ -32,6 +32,10 @@ Data Insertion:
 INSERT INTO users (id, username, email)
 VALUES (1, 'john_doe', 'john@example.com');
 ```
+Data Querying:
+```sql
+SELECT * FROM users;
+```
 ---
 
 More at https://www.w3schools.com/sql/sql_ref_mysql.asp
