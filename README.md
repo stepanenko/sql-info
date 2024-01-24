@@ -36,6 +36,10 @@ Data Querying:
 ```sql
 SELECT * FROM users;
 ```
+Data Filtering:
+```sql
+SELECT * FROM users WHERE username = 'john_doe';
+```
 ---
 
 More at https://www.w3schools.com/sql/sql_ref_mysql.asp
