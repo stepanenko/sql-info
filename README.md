@@ -13,7 +13,7 @@ Designed by | Donald D. Chamberlin, Raymond F. Boyce
 - ### [SQL Functions](https://github.com/stepanenko/sql-info/blob/master/MySQL_Functions.md)
 - ### [SQL Quick Reference](https://github.com/stepanenko/sql-info/blob/master/SQL_Quick_Reference.md)
 
-### Example:
+### Examples:
 
 Database creation:
 ```sql
@@ -40,6 +40,9 @@ Data Filtering:
 ```sql
 SELECT * FROM users WHERE username = 'john_doe';
 ```
----
+Data Updating:
+```sql
+UPDATE users SET email = 'john.doe@example.com' WHERE id = 1;
+```
 
 More at https://www.w3schools.com/sql/sql_ref_mysql.asp
