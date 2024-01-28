@@ -44,5 +44,9 @@ Data Updating:
 ```sql
 UPDATE users SET email = 'john.doe@example.com' WHERE id = 1;
 ```
+Data Deletion:
+```sql
+DELETE FROM users WHERE id = 1;
+```
 
 More at https://www.w3schools.com/sql/sql_ref_mysql.asp
