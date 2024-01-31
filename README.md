@@ -48,5 +48,12 @@ Data Deletion:
 ```sql
 DELETE FROM users WHERE id = 1;
 ```
-
+List Databases:
+```sql
+SHOW DATABASES; # Displays a list of databases
+```
+List Tables:
+```sql
+SHOW TABLES; # Displays a list of tables in the current database
+```
 More at https://www.w3schools.com/sql/sql_ref_mysql.asp
