@@ -50,7 +50,9 @@ DELETE FROM users WHERE id = 1;
 ```
 List Databases:
 ```sql
-SHOW DATABASES; # Displays a list of databases
+SHOW DATABASES; # Displays a list of all the available databases
+
+SHOW SCHEMAS; # an alternate for the SHOW DATABASES statement
 ```
 List Tables:
 ```sql
