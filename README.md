@@ -40,6 +40,10 @@ Data Filtering:
 ```sql
 SELECT * FROM users WHERE username = 'john_doe';
 ```
+Data Sorting and Limiting:
+```sql
+SELECT * FROM users ORDER BY username ASC LIMIT 10;
+```
 Data Updating:
 ```sql
 UPDATE users SET email = 'john.doe@example.com' WHERE id = 1;
