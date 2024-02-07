@@ -58,6 +58,10 @@ SHOW DATABASES; # Displays a list of all the available databases
 
 SHOW SCHEMAS; # an alternate for the SHOW DATABASES statement
 ```
+Use Database:
+```sql
+USE database_name; # Specifies which database to use
+```
 List Tables:
 ```sql
 SHOW TABLES; # Displays a list of tables in the current database
