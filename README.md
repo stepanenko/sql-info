@@ -52,6 +52,10 @@ Data Deletion:
 ```sql
 DELETE FROM users WHERE id = 1;
 ```
+Table Deletion:
+```sql
+DROP TABLE table_name;
+```
 List Databases:
 ```sql
 SHOW DATABASES; # Displays a list of all the available databases
