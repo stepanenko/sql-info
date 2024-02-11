@@ -52,6 +52,10 @@ Data Deletion:
 ```sql
 DELETE FROM users WHERE id = 1;
 ```
+Table Editing:
+```sql
+ALTER TABLE table_name ADD column_name datatype;
+```
 Table Deletion:
 ```sql
 DROP TABLE table_name;
