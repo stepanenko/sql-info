@@ -44,6 +44,10 @@ Data Sorting and Limiting:
 ```sql
 SELECT * FROM users ORDER BY username ASC LIMIT 10;
 ```
+Data Aggregation:
+```sql
+SELECT COUNT(*) FROM users; # Use aggregate functions like COUNT, SUM, AVG, MIN, and MAX for data analysis
+```
 Data Updating:
 ```sql
 UPDATE users SET email = 'john.doe@example.com' WHERE id = 1;
