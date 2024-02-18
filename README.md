@@ -56,6 +56,12 @@ Data Deletion:
 ```sql
 DELETE FROM users WHERE id = 1;
 ```
+Table Joining (used to combine rows from two or more tables based on a related column):
+```sql
+SELECT users.username, orders.order_id
+FROM users
+INNER JOIN orders ON users.id = orders.user_id;
+```
 Table Editing:
 ```sql
 ALTER TABLE table_name ADD column_name datatype;
